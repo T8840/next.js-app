@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "data": {
+      "id": "73acec39-5f9e-4ebe-bb18-04281b308be4",
+      "name": "Tahun 2014 - Data Jumlah Pendonor Darah di Kota Bandung"
+    },
+    "dataset": {
+      "id": "0b91f603-650e-40c8-92e1-d478310ece4e",
+      "name": "Jumlah Pendonor Darah di Kota Bandung"
+    },
+    "organization": {
+      "id": "b514d7c7-21bc-4837-9791-9ba68fa05445",
+      "name": "Palang Merah Indonesia Kota Bandung"
+    },
+    "group": {
+      "id": "8ebb36ba-63c0-4c4f-b5cd-82b6829f3118",
+      "name": "Kesehatan"
+    },
+    "format": "CSV",
+    "created": "2017-08-25 07:32:20",
+    "file_url": "http://satudata.bandung.go.id/dataset/0b91f603-650e-40c8-92e1-d478310ece4e/resource/73acec39-5f9e-4ebe-bb18-04281b308be4/download/banyaknya-penyumbang-darah-menurut-bulan-dan-jenis-donor-darah-di-kota-bandung-tahun-2014.csv",
+    "last_modified": "2017-08-25 07:32:20",
+    "row_total": 12
+  },
+  "data": [
+    {
+      "nama_bulan": "Januari/January",
+      "a": 2382,
+      "b": 1790,
+      "o": 2428,
+      "ab": 673,
+      "total": 7273
+    },
+    {
+      "nama_bulan": "Pebruari/February",
+      "a": 2947,
+      "b": 2845,
+      "o": 3343,
+      "ab": 853,
+      "total": 9988
+    },
+    {
+      "nama_bulan": "Maret/March",
+      "a": 2984,
+      "b": 3097,
+      "o": 3907,
+      "ab": 859,
+      "total": 10847
+    },
+    {
+      "nama_bulan": "April/April",
+      "a": 2873,
+      "b": 2767,
+      "o": 3560,
+      "ab": 856,
+      "total": 10056
+    },
+    {
+      "nama_bulan": "Mei/May",
+      "a": 2947,
+      "b": 2945,
+      "o": 3767,
+      "ab": 895,
+      "total": 10554
+    },
+    {
+      "nama_bulan": "Juni/June",
+      "a": 2836,
+      "b": 2823,
+      "o": 3712,
+      "ab": 829,
+      "total": 10200
+    },
+    {
+      "nama_bulan": "Juli/July",
+      "a": 2172,
+      "b": 1234,
+      "o": 881,
+      "ab": 421,
+      "total": 4717
+    },
+    {
+      "nama_bulan": "Agustus/August",
+      "a": 3395,
+      "b": 3306,
+      "o": 4089,
+      "ab": 1089,
+      "total": 11879
+    },
+    {
+      "nama_bulan": "September/September",
+      "a": 3239,
+      "b": 3402,
+      "o": 4557,
+      "ab": 969,
+      "total": 12167
+    },
+    {
+      "nama_bulan": "Oktober/October",
+      "a": 2355,
+      "b": 2314,
+      "o": 2751,
+      "ab": 723,
+      "total": 8143
+    },
+    {
+      "nama_bulan": "Nopember/November",
+      "a": 3001,
+      "b": 3099,
+      "o": 3663,
+      "ab": 944,
+      "total": 10707
+    },
+    {
+      "nama_bulan": "Desember/December",
+      "a": 3171,
+      "b": 3106,
+      "o": 3872,
+      "ab": 923,
+      "total": 11072
+    }
+  ]
+}

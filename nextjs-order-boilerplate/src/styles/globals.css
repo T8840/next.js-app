@@ -1,0 +1,16 @@
+:root {
+  --hero-bg: #f1f3ff;
+  --primary-dark-blue-04: #0d28a6;
+  --white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden;
+}

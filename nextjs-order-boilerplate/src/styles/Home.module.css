@@ -1,0 +1,273 @@
+#hero {
+  background-color: var(--hero-bg);
+}
+
+.navbar {
+  --bs-bg-opacity: 0;
+}
+
+#cta .card {
+  color: #fff;
+  background-color: var(--primary-dark-blue-04);
+  height: 25rem;
+}
+
+#testimonial .card {
+  background-color: #f1f3ff;
+}
+
+.logo {
+  display: block;
+  background: var(--primary-dark-blue-04);
+  height: 2.5rem;
+  width: 7rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10pt;
+  background-color: var(--primary-dark-blue-04);
+  width: 2rem;
+  height: 2rem;
+  color: var(--white);
+  border-radius: 99999px;
+}
+
+.iconW {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10pt;
+  width: 2rem;
+  height: 2rem;
+  color: var(--white);
+  border-radius: 99999px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #010101;
+  opacity: 0.4;
+  z-index: 10;
+}
+
+.blue {
+  background-color: var(--primary-dark-blue-04);
+}
+
+.yellow {
+  background-color: #f9cc00;
+}
+
+.red {
+  background-color: #fa2c5a;
+}
+
+.green {
+  background-color: #5cb85f;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.heroContent {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+.heroImage {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+}
+
+.customDatepicker {
+  width: 200%;
+  height: 40px;
+  border: 1px solid #0aca3a;
+  border-radius: 4px;
+}
+
+.customDatepicker:focus {
+  border-color: #0aca3a;
+}
+
+/* .react-datepicker__day--highlighted {
+  background-color: #ffcc00;
+  color: #000000;
+} */
+
+.customListgroup {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.checklist {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #28a745;
+}
+
+.searchForm {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 15;
+  margin-bottom: -7rem;
+}
+
+.active-step .badge {
+  border: 2px solid #007bff;
+}
+
+.inactive-step .badge {
+  border: 2px solid #007bff;
+}
+
+.line {
+  border-top: 1px solid #87b8e9;
+  width: 50px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.footer {
+  padding-top: 5rem;
+}
+
+.cardCar {
+  margin-bottom: 100px;
+}
+
+.cardCarDetail {
+  margin-top: 100px;
+}
+
+.copyField {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  transition: background-color 0.3s;
+}
+
+.copyField:hover {
+  background-color: #f9f9f9;
+}
+
+.copyText {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+}
+
+.copyIcon1 {
+  margin-left: 570px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #777;
+}
+
+.copyIcon2 {
+  margin-left: 550px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #777;
+}
+.tabContainer {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.tabHeader {
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tabTitle {
+  font-weight: bold;
+}
+
+.tabNav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabNavItem {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: #f5f5f5;
+}
+
+.tabNavItem.active {
+  background-color: #fff;
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.tabContent {
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.labelFileUpload {
+  width: 100%;
+  min-height: 15rem;
+  cursor: pointer;
+}
+
+.labelFileUpload input[type='file'] {
+  display: none;
+}
+
+/* ul {
+  padding-left: 20px;
+} */
+
+@media (max-width: 575.98px) {
+  .heroContent {
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .heroImage {
+    position: static;
+    bottom: 0;
+    right: 0;
+    width: auto;
+  }
+}
